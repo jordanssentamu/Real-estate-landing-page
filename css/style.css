@@ -1,12 +1,20 @@
 .detailed {
     background: linear-gradient(180deg, rgba(0, 102, 255, 0.7) 0%, rgba(0, 102, 255, 0) 100%);
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
+    
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
+}
+
+.details {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+    
 }
 
 

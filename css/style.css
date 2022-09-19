@@ -48,13 +48,29 @@ a {
 }
 
 .different_option {
-    width: 40rem;
+    width: 50%;
     margin-top: 285px;
     margin-bottom: 0px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
+.search {
+    width: 20px;
+    height: 15px;
+    
+}
+
+.area {
+   display: flex; 
+   background-color: rgb(255, 255, 255);
+   gap: 20px;
+   border-radius: 10px;
+   padding: 10px;
+   justify-content: center;
+}
 
 
 

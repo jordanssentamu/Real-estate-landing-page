@@ -33,6 +33,19 @@ a {
     
 }
 
+.location {
+    position: absolute;
+    width: 1319px;
+    height: 509.3px;
+    left: 137px;
+    top: 212px;
+    background-image: url(./img/datingscout--KFh-zLMwIU-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
 
 
 

@@ -43,7 +43,16 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.927) rgba(255, 255, 230, 0.012));
     
+}
+
+.different_option {
+    width: 40rem;
+    margin-top: 285px;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 

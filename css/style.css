@@ -39,4 +39,52 @@ a {
 
 .location_info {
   display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.comfort_term {
+  position: absolute;
+  width: 204px;
+  height: 24px;
+  left: 210px;
+  top: 233.3px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff5c00;
+}
+
+.find_state {
+  position: absolute;
+  width: 613px;
+  height: 166px;
+  left: 205px;
+  top: 262.3px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 69px;
+  line-height: 120%;
+  color: #061224;
+}
+
+.more_details {
+  position: absolute;
+  width: 585px;
+  height: 60px;
+  left: 205px;
+  top: 458.3px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #061224;
+  margin-top: 50px;
+  opacity: 0.7;
 }

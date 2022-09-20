@@ -88,3 +88,59 @@ a {
   margin-top: 50px;
   opacity: 0.7;
 }
+
+.residence_area {
+  position: absolute;
+  width: 914px;
+  height: 116px;
+  left: 205px;
+  top: 589.3px;
+  border: 1px solid rgba(26, 15, 9, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 18px 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  gap: 100px;
+}
+
+.press {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 50px;
+  border: 1px solid rgba(26, 15, 9, 0.1);
+  border-radius: 10px;
+}
+
+.search {
+  width: 10px;
+  height: 10px;
+  padding-bottom: 5px;
+}
+
+.property_option {
+  border: 1px solid rgba(26, 15, 9, 0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.price_values {
+  border: 1px solid rgba(26, 15, 9, 0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+}
+
+.vist_button {
+  background: #0066ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+}

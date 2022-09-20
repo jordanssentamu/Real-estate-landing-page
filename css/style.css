@@ -36,3 +36,7 @@ a {
   border-radius: 10px;
   padding: 5px 5px 8px 8px;
 }
+
+.location_info {
+  display: flex;
+}

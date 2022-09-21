@@ -164,8 +164,8 @@ button {
   position: absolute;
   width: 358px;
   height: 409px;
-  left: 183px;
-  top: 1036px;
+  margin-left: 50px;
+
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }

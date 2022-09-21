@@ -45,10 +45,6 @@ a {
 
 .comfort_term {
   position: absolute;
-  width: 204px;
-  height: 24px;
-  left: 210px;
-  top: 233.3px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -60,25 +56,15 @@ a {
 }
 
 .find_state {
-  position: absolute;
-  width: 613px;
-  height: 166px;
-  left: 205px;
-  top: 262.3px;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 69px;
   line-height: 120%;
   color: #061224;
 }
 
 .more_details {
-  position: absolute;
-  width: 585px;
-  height: 60px;
-  left: 205px;
-  top: 458.3px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -91,18 +77,22 @@ a {
 
 .residence_area {
   position: absolute;
-  width: 914px;
-  height: 116px;
-  left: 205px;
-  top: 589.3px;
+  width: 700px;
+  height: 70px;
   border: 1px solid rgba(26, 15, 9, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 18px 40px;
   background: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 0px;
   border-radius: 20px;
-  gap: 100px;
+  gap: 20px;
+}
+
+.more_info {
+  margin-left: 2rem;
 }
 
 .press {
@@ -146,20 +136,10 @@ button {
 }
 
 .first_section {
-  position: absolute;
-  width: 1159.69px;
-  height: 670px;
-  left: 183px;
-  top: 855px;
 }
 
 .feature_info {
-  position: absolute;
-  width: 386px;
-  height: 52px;
-  left: 557px;
-  top: 870px;
-
+  text-align: center;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -169,13 +149,7 @@ button {
 }
 
 .feature_desicription {
-  position: absolute;
-  width: 664px;
-  height: 54px;
-  left: 418px;
-  top: 922px;
   margin-top: 50px;
-
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;

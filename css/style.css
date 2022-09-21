@@ -152,3 +152,46 @@ button {
   left: 183px;
   top: 855px;
 }
+
+.feature_info {
+  position: absolute;
+  width: 386px;
+  height: 52px;
+  left: 557px;
+  top: 870px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  color: #061224;
+}
+
+.feature_desicription {
+  position: absolute;
+  width: 664px;
+  height: 54px;
+  left: 418px;
+  top: 922px;
+  margin-top: 50px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #061224;
+  opacity: 0.5;
+}
+
+.property1 {
+  position: absolute;
+  width: 358px;
+  height: 409px;
+  left: 183px;
+  top: 1036px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

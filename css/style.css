@@ -169,3 +169,49 @@ button {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.property1_1 {
+  height: 242px;
+  width: 358px;
+  background-image: url(./img/aranprime-KbytCpI1i5I-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  background: linear-gradient(
+    gradient(180deg, rgba(25, 15, 9, 0) 0%, #190f09 100%)
+  );
+  border-radius: 0px;
+  margin-top: -15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.feature01 {
+  margin-left: 20px;
+}
+.feature02 {
+  width: 38.25px;
+  height: 100px;
+  background: #0075ff;
+  transform: rotate(-40.03deg);
+  align-self: flex-start;
+  margin-right: 60px;
+  margin-top: -10px;
+  padding: 2px;
+}
+
+.feature02_1 {
+  font-family: "Helvetica";
+  width: 66px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400px;
+  letter-spacing: 0.1em;
+  transform: rotate(8deg);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

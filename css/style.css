@@ -215,8 +215,21 @@ button {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-
+.location1 {
+  display: flex;
+  gap: 10px;
+}
 .location_i {
   height: 20px;
   width: 20px;
+  margin-left: 20px;
+}
+
+.location2 {
+  display: flex;
+  gap: 10px;
+}
+
+.bed {
+  margin-left: 20px;
 }

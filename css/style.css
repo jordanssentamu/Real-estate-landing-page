@@ -160,14 +160,19 @@ button {
   opacity: 0.5;
 }
 
-.property1 {
+.property1,
+.property2 {
   position: absolute;
   width: 358px;
   height: 409px;
   margin-left: 50px;
-
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.property2 {
+  margin-top: 200px;
+  margin-left: 0px;
 }
 
 .property1_1 {
@@ -215,7 +220,24 @@ button {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.location1 {
+
+.property1_1_2 {
+  margin-top: 20px;
+}
+
+.adviser_head {
+  width: 256px;
+  height: 33px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #051023;
+  margin-left: 20px;
+}
+.location1,
+.property2 {
   display: flex;
   gap: 10px;
 }

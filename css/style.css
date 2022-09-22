@@ -159,24 +159,22 @@ button {
   color: #061224;
   opacity: 0.5;
 }
-property {
+.property {
   display: flex;
-  margin-top: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
 }
 
 .property1,
-.property2 {
-  position: absolute;
+.property2,
+.property3 {
+  /* position: absolute; */
   width: 358px;
   height: 409px;
   margin-left: 50px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.property2 {
-  margin-top: 200px;
-  margin-left: 0px;
 }
 
 .property1_1 {
@@ -190,14 +188,14 @@ property {
   background: linear-gradient(
     gradient(180deg, rgba(25, 15, 9, 0) 0%, #190f09 100%)
   );
-  border-radius: 0px;
-  margin-top: -15px;
+  /* margin-top: -200px; */
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
 
-.property1_2 {
+.property2_1,
+.property3_1 {
   height: 242px;
   width: 358px;
   background-image: url(./img/curology-6CJg-fOTYs4-unsplash.jpg);
@@ -214,6 +212,9 @@ property {
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 0px;
+}
+.property3_1 {
+  background-image: url(./img/samuel-figueroa-8tczDCFNBkg-unsplash.jpg);
 }
 
 .feature01 {
@@ -259,8 +260,7 @@ property {
   color: #051023;
   margin-left: 20px;
 }
-.location1,
-.property2 {
+.location1 {
   display: flex;
   gap: 10px;
 }
@@ -277,4 +277,11 @@ property {
 
 .bed {
   margin-left: 20px;
+  margin-right: 10px;
+}
+
+.values,
+.bathtab,
+.sqft {
+  margin-right: 10px;
 }

@@ -159,6 +159,10 @@ button {
   color: #061224;
   opacity: 0.5;
 }
+property {
+  display: flex;
+  margin-top: 100px;
+}
 
 .property1,
 .property2 {
@@ -191,6 +195,25 @@ button {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.property1_2 {
+  height: 242px;
+  width: 358px;
+  background-image: url(./img/curology-6CJg-fOTYs4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  background: linear-gradient(
+    gradient(180deg, rgba(25, 15, 9, 0) 0%, #190f09 100%)
+  );
+  border-radius: 0px;
+  margin-top: -15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 0px;
 }
 
 .feature01 {

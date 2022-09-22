@@ -1,3 +1,6 @@
+body {
+  background: #e5e5e5;
+}
 .detailed {
   position: relative;
   background: linear-gradient(
@@ -135,9 +138,6 @@ button {
   padding: 10px 25px;
 }
 
-.first_section {
-}
-
 .feature_info {
   text-align: center;
   font-family: "Open Sans";
@@ -163,7 +163,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .property1,
@@ -284,4 +284,110 @@ button {
 .bathtab,
 .sqft {
   margin-right: 10px;
+}
+.services {
+  width: 1134px;
+  height: 615px;
+}
+
+h3 {
+  width: 428px;
+  height: 52px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  color: #061224;
+  text-align: center;
+}
+.details_years {
+  width: 564px;
+  height: 54px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #061224;
+  opacity: 0.5;
+}
+
+.more_service {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services1 {
+  width: 358px;
+  height: 419px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 179px 179px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.graducate,
+.rent_1,
+.sell_home {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: linear-gradient(180deg, #ff792e 0%, #ff7878 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rent_1 {
+  background: linear-gradient(180deg, #387cff 0%, #38cfff 100%);
+}
+
+.sell_home {
+  background: linear-gradient(180deg, #bf38ff 0%, #ff38a3 100%);
+}
+
+.graducate_1,
+.rent,
+.sell_home1 {
+  height: 26px;
+}
+
+.home_purchase_details {
+  width: 272px;
+  height: 81px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061224;
+  opacity: 0.7;
+  margin-left: 50px;
+}
+
+h4,
+.rent_home,
+.sell_one {
+  width: 141px;
+  height: 36px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #061224;
+}
+
+h5 {
+  color: #ff5c00;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
 }

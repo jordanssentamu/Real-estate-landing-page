@@ -498,3 +498,21 @@ h5 {
   line-height: 130%;
   color: #061224;
 }
+
+.client_reviews_text {
+  margin-top: -30px;
+  width: 642px;
+  height: 54px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061224;
+  opacity: 0.5;
+}
+
+.client_reviews_comments {
+  display: flex;
+  gap: 20px;
+}

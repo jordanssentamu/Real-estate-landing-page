@@ -652,3 +652,10 @@ h5 {
 .name_partner04 {
   color: #38cfff;
 }
+
+.footer_bar {
+  width: 1500px;
+  height: 438px;
+  background: #061224;
+  margin-top: 100px;
+}

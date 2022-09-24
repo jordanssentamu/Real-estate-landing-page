@@ -486,6 +486,7 @@ h5 {
 .client_reviews {
   width: 1134px;
   height: 429px;
+  margin-left: 100px;
 }
 
 .client_reviews_heading {
@@ -515,4 +516,112 @@ h5 {
 .client_reviews_comments {
   display: flex;
   gap: 20px;
+  align-items: center;
+}
+
+.client_reviews_comments_1 {
+  box-sizing: border-box;
+  width: 552px;
+  height: 248px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.client_reviews_comments_1_1,
+.client_reviews_comments_1_2 {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.client_reviews_comments_1image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-top: 0px;
+}
+
+.star_credit {
+  width: 95px;
+  height: 14.41px;
+  background-color: orange;
+}
+
+.client_name,
+.client_name2 {
+  width: 137px;
+  height: 36px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #061224;
+}
+
+.client_reward_details {
+  margin-top: -5px;
+}
+
+.like_review,
+.like_review2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #061224;
+}
+
+.client_reviews_text {
+  width: 472px;
+  height: 81px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061224;
+  opacity: 0.7;
+}
+
+.client_reviews_comments_1text,
+.client_reviews_comments_1text2 {
+  width: 481px;
+  height: 81px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061224;
+  opacity: 0.7;
+}
+
+.partners {
+  width: 1100px;
+  height: 190px;
+}
+
+.partner_names1 {
+  display: flex;
+  gap: 15px;
+}
+
+.house1 {
+  width: 60px;
+  height: 56px;
+}
+
+.name_partner01 {
+  width: 119px;
+  height: 15px;
+  font-weight: 800;
 }

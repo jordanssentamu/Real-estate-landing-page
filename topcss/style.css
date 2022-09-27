@@ -393,7 +393,7 @@ h5 {
 }
 
 .contact_details_item {
-  width: 1500px;
+  /* width: 1500px; */
   height: 319px;
   background: #061224;
   display: flex;
@@ -875,5 +875,90 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .contact_details {
+    width: 100%;
+    height: auto;
+    margin-top: 850px;
+    margin-left: 0px;
+  }
+  .contact_details_item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+  .contact_details_item_1 {
+    width: 100%;
+    height: 319px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .construction_features {
+    width: 100%;
+    height: 319px;
+  }
+  .client_reviews_heading {
+    width: 75%;
+    height: auto;
+    font-size: 25px;
+    padding-left: 0px;
+  }
+  .client_reviews_text {
+    width: 95%;
+    height: 81px;
+    margin-bottom: 50px;
+  }
+  .client_reviews {
+    width: 75%;
+    height: 429px;
+    margin-left: 20px;
+    margin-bottom: 350px;
+  }
+  .client_reviews_comments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-items: center;
+  }
+  .client_reviews_comments_1 {
+    width: 100%;
+    height: auto;
+  }
+  .client_reviews_comments_1text,
+  .client_reviews_comments_1text2 {
+    width: 80%;
+    height: auto;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+  }
+  .client_reviews_comments_1image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .client_name,
+  .client_name2 {
+    width: 137px;
+    height: 36px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #061224;
+  }
+  .like_review,
+  .like_review2 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .star_credit {
+    width: 15px;
+    height: 14.41px;
+    background-color: orange;
   }
 }

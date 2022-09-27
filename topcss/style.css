@@ -645,14 +645,14 @@ h5 {
 }
 
 .footer_bar {
-  /* width: 1500px; */
+  width: 100%;
   height: 438px;
   background: #061224;
   margin-top: 100px;
 }
 
 .footer_bar_1_1 {
-  /* width: 1500px; */
+  width: 100%;
   height: 170px;
   display: flex;
   justify-content: space-around;
@@ -960,5 +960,41 @@ h5 {
     width: 15px;
     height: 14.41px;
     background-color: orange;
+  }
+  .partners {
+    width: 80%;
+    height: auto;
+  }
+  .partner_names {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .name_partner01,
+  .name_partner02,
+  .name_partner03,
+  .name_partner04 {
+    width: 119px;
+    height: 15px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .my_partners {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  footer_bar {
+    width: 100%;
+    height: auto;
+    background: #061224;
+  }
+
+  .footer_bar_2 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    gap: 10px;
   }
 }

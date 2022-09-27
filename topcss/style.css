@@ -842,4 +842,19 @@ h5 {
     flex-direction: column;
     gap: 20px;
   }
+
+  h3 {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 150px;
+  }
+  .details_years {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 50px;
+  }
 }

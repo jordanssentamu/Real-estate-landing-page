@@ -857,4 +857,23 @@ h5 {
     margin-left: 20px;
     padding-right: 50px;
   }
+  .more_service {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+    height: auto;
+  }
+  .graducate,
+  .rent_1,
+  .sell_home {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: linear-gradient(180deg, #ff792e 0%, #ff7878 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
